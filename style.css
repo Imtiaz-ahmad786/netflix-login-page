@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+    font-family: "Poppins", sans-serif;
+  background: url(./public/img/bgc.jpg);
+
+  @apply w-full h-auto bg-cover bg-no-repeat bg-transparent ;
+  @apply flex w-full flex-col  items-center justify-center  ;
+}
+
+.contain {
+    
+  @apply w-full md:w-[712px] lg:w-[1024px]
+   xl:w-[1200px] h-[92px];
+}
+.form{
+    @apply bg-[]
+}
+.bgnn{
+    background: none;
+}
