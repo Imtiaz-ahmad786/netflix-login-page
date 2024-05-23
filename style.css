@@ -9,5 +9,5 @@
   @apply flex w-full flex-col  items-center justify-center;
 }
 ::placeholder {
-  color: white;
+  @apply text-white;
 }
