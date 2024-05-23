@@ -8,3 +8,6 @@
   @apply w-full  bg-cover bg-no-repeat  h-auto;
   @apply flex w-full flex-col  items-center justify-center;
 }
+::placeholder {
+  color: white;
+}
